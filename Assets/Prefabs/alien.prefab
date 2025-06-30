@@ -10,7 +10,8 @@ GameObject:
   m_Component:
   - component: {fileID: 5850229763734993021}
   - component: {fileID: 5662769084314672649}
-  - component: {fileID: 1388385751904952313}
+  - component: {fileID: 8051854918973875627}
+  - component: {fileID: 3687000725493354865}
   m_Layer: 0
   m_Name: alien
   m_TagString: Untagged
@@ -88,7 +89,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!58 &1388385751904952313
+--- !u!114 &8051854918973875627
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8496675787679968620}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d77433c9c03ae0f4eb6a2bba298607f0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!58 &3687000725493354865
 CircleCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
